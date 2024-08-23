@@ -85,6 +85,7 @@ border-radius: 50px;
 z-index: 99999;
 }
 
+
 #home .container,
 #about .container,
 #blog .container,
@@ -97,7 +98,7 @@ padding-top: 4rem;
 position: relative;
 margin-left: 25px;
 padding: 35px 0;
-color: var(--light) !important;
+color: var(--dark) !important;
 outline: none;
 transition: .5s;
 }
@@ -113,7 +114,8 @@ color: var(--secondary) !important;
 }
 
 .navbar-light .navbar-brand h1 {
-color: #FFFFFF;
+/* color: #FFFFFF; */
+color: var(--primary);
 }
 
 .navbar-light .navbar-brand img {
@@ -218,13 +220,20 @@ url(../img/bg-round.png),
 url(../img/bg-tree.png),
 url(../img/bg-bottom-hero.png);
 background-position:
-20px 10px,
+0px 0px,
 bottom 190px right 10px,
 left 55% top -1px,
 left 45% bottom -1px,
 center bottom -1px;
 background-repeat: no-repeat;
+background-size:
+auto,
+auto,
+auto,
+auto,
+100% 15rem;
 }
+
 
 
 /*** Section Title ***/
